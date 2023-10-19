@@ -12,7 +12,7 @@ async function getData(){
             displayData(val);
         })
     } catch (error) {
-        
+        console.log("error");
     }
 }
 getData();

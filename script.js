@@ -34,7 +34,7 @@ function displayData(data){
         <p>${data.status}</p>
         <p>Duration: ${timeValue.toFixed(2)} hrs</p>
         <small>Start Time: ${data.start_time}</small>
-        <small>Start Time: ${data.end_time}</small>
+        <small>End Time: ${data.end_time}</small>
     </div>
     <div class="site">
         <a href=${data.url} target=_blank>${data.site}</a>
